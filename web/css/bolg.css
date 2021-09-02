@@ -1,0 +1,136 @@
+.title_div{
+    height: 100px;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+
+.login_div{
+    background-color: 	#E0E0E0;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top:25%;
+    margin-left: -200px;
+    border-radius: 5px;
+}
+
+.login_form{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.topic_div{
+    border: 1px solid green;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+}
+
+.changepage{
+    border: 1px solid black;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.topic_table{
+    /* border: 1px solid blue; */
+    width: 1000px;
+}
+
+.topic_table th{
+    /* border: 1px solid blue; */
+    background-color: #d0d0d0;
+}
+
+.topic_table th:first-child{
+    width: 100px;
+}
+
+.topic_table th:nth-child(2){
+    width: 450px;
+}
+
+.topic_table td{
+    border: 1px solid red;
+    text-align: center;
+    font-size: 14px;
+    height: 25px;
+}
+
+.topic_box{
+    /* border: 1px solid black; */
+    width: 600px;
+    margin: auto;
+}
+
+.topic_title{
+    /* border: 1px solid black; */
+    width: 600px;
+    margin:auto;
+}
+
+.topic_username{
+    /* border: 1px solid red; */
+    height: 45px;
+    font-size: 14px;
+    color: 	#8E8E8E;
+}
+
+.topic_content{
+    /* border: 1px solid black; */
+    font-size: 20px;
+}
+
+.back{
+    /* border: 1px solid black; */
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.edit_box{
+    /* border: 1px solid black; */
+    width: 800px;
+    margin: auto;
+    height: 450px;
+}
+
+.edit_box input:nth-child(1){
+    border: 1px solid #BEBEBE;
+    width: 795px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.edit_box textarea{
+    border: 1px solid blue;
+    width: 795px;
+    resize: none;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.edit_box input:nth-child(4){
+    width: 100px;
+    height: 30px;
+    float: right;
+}
+
+.add_box{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 350px;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}

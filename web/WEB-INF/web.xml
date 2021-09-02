@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+    
+<!--    设置服务开启时的初始页面-->
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
+
+<!--    登录-->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+<!--    主页面-->
+    <servlet>
+        <servlet-name>MainServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.MainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+<!--    退出-->
+    <servlet>
+        <servlet-name>ExitServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.ExitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExitServlet</servlet-name>
+        <url-pattern>/exit</url-pattern>
+    </servlet-mapping>
+    
+<!--    查看文章-->
+    <servlet>
+        <servlet-name>SeeTopicServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.SeeTopicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SeeTopicServlet</servlet-name>
+        <url-pattern>/seetopic</url-pattern>
+    </servlet-mapping>
+
+<!--    跳转至修改页面-->
+    <servlet>
+        <servlet-name>EditTopicFormServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.EditTopicFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditTopicFormServlet</servlet-name>
+        <url-pattern>/editform</url-pattern>
+    </servlet-mapping>
+    
+<!--    修改文章-->
+    <servlet>
+        <servlet-name>EditTopicServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.EditTopicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditTopicServlet</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+    
+<!--    删除文章-->
+    <servlet>
+        <servlet-name>DeleteTopicServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.DeleteTopicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTopicServlet</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+    
+<!--    发布文章页面-->
+    <servlet>
+        <servlet-name>ReleaseTopicFormServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.ReleaseTopicFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReleaseTopicFormServlet</servlet-name>
+        <url-pattern>/releaseform</url-pattern>
+    </servlet-mapping>
+
+<!--    发布文章-->
+    <servlet>
+        <servlet-name>ReleaseTopicServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.ReleaseTopicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReleaseTopicServlet</servlet-name>
+        <url-pattern>/release</url-pattern>
+    </servlet-mapping>
+    
+<!--    注册账号-->
+    <servlet>
+        <servlet-name>AddUserServlet</servlet-name>
+        <servlet-class>com.ljc.project.servlet.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUserServlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+</web-app>
