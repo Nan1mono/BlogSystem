@@ -32,6 +32,6 @@ sql文件在blog.sql文件中，自行导入至数据库
 
 @author Nanimono
 
-@Email nanimono@163.com
+@Email nan1mono@163.com
 
 @Date 2021.09.01 23:51
